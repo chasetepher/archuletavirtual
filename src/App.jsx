@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import DesktopMenu from './desktopMenu.jsx';
+import Services from './services.jsx';
+import About from './about.jsx';
 import './App.css'
 
 function App() {
@@ -16,8 +18,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p className='headline'>ARCHULETA <br/> VIRTUAL</p>
+      </header>
       <DesktopMenu/>
-
+      <Services/>
+      <About/>
         <p>
           <a
             className="App-link"
@@ -46,7 +50,7 @@ function App() {
             Schedule a free consultation
           </a>
         </p>
-      </header>
+
     </div>
   )
   }
