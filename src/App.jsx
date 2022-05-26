@@ -2,6 +2,7 @@ import { useState } from 'react'
 import DesktopMenu from './desktopMenu.jsx';
 import Services from './services.jsx';
 import About from './about.jsx';
+import Contact from './contact.jsx';
 import './App.css'
 
 function App() {
@@ -22,35 +23,7 @@ function App() {
       <DesktopMenu/>
       <Services/>
       <About/>
-        <p>
-          <a
-            className="App-link"
-            href="https://www.instagram.com/archuletavirtual/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Follow me on Instagram
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://www.facebook.com/ArchuletaVirtual/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Follow me on Facebook
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://calendly.com/archuletavirtual/30min?fbclid=IwAR1tCgfdbn0oIRfHbRdFz_8_SL2tnfEnqtFPiKwy97bfHV68J874EP9KCjk&month=2022-05"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Schedule a free consultation
-          </a>
-        </p>
-
+      <Contact/>
     </div>
   )
   }
