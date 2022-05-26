@@ -3,7 +3,7 @@ import React from 'react';
 export default function contact () {
 
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id='contact-area'>
       <div className='contact-title'>
         CONTACT
       </div>

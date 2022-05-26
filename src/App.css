@@ -249,6 +249,27 @@
   margin-bottom: .5em; */
 }
 
+.footer {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: calc(8px + .8vmin);
+  color: #C5C5C5;
+  margin-top: 3em;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit
+}
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

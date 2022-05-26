@@ -3,15 +3,17 @@ import React from 'react';
 export default function desktopMenu () {
   return (
     <div className='desktop-menu'>
-      <div className='menu-item-1'>
+      <a href='#service-area'><div className='menu-item-1'>
         SERVICES
-      </div>
+      </div></a>
+      <a href='#about-area'>
       <div className='menu-item-2'>
         ABOUT
-      </div>
+      </div></a>
+      <a href='#contact-area'>
       <div className='menu-item-3'>
         CONTACT
-      </div>
+      </div></a>
     </div>
   )
 }

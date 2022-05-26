@@ -24,6 +24,9 @@ function App() {
       <Services/>
       <About/>
       <Contact/>
+      <div className='footer'>
+        built by <a href="https://www.linkedin.com/in/chase-riggs/" target='_blank'>ChaseFab</a> 2022
+      </div>
     </div>
   )
   }
