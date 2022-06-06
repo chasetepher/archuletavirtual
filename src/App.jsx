@@ -3,6 +3,8 @@ import DesktopMenu from './desktopMenu.jsx';
 import Services from './services.jsx';
 import About from './about.jsx';
 import Contact from './contact.jsx';
+import Hero from './hero.jsx';
+import Testimonials from './testimonials.jsx';
 import './App.css'
 
 function App() {
@@ -21,11 +23,13 @@ function App() {
         <p className='headline'>ARCHULETA <br/> VIRTUAL</p>
       </header>
       <DesktopMenu/>
+      <Hero/>
       <Services/>
       <About/>
       <Contact/>
+      <Testimonials/>
       <div className='footer'>
-        built by <a href="https://www.linkedin.com/in/chase-riggs/" target='_blank'>ChaseFab</a> 2022
+        built by <span className='chasefab'><a href="https://www.linkedin.com/in/chase-riggs/" target='_blank'>ChaseFab</a></span> 2022
       </div>
     </div>
   )
