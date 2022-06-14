@@ -72,9 +72,10 @@
   margin-top: 1em;
   display: grid;
   grid-template-areas:
-  'hero-blurb hero-image';
+  'hero-blurb hero-image'
+  'hero-small-blurb hero-image';
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto;
   background-color: #FEFDF8;
 }
 
@@ -94,6 +95,16 @@
   font-size: calc(12px + 3vmin);
   color: black;
   margin-top: auto;
+  margin-bottom: .5em;
+}
+
+.hero-small-blurb {
+  grid-area: hero-small-blurb;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: calc(10px + 1vmin);
+  color: black;
+  margin-top: .5em;
   margin-bottom: auto;
 }
 
@@ -147,7 +158,6 @@
   font-weight: 700;
   font-size: calc(10px + 1.3vmin);
   color:#C5C5C5;
-  margin-top: -3.5em;
 }
 
 .service-blurb {
@@ -171,8 +181,8 @@
 .custom {
   grid-area: custom-mgmt;
   /* height:fit-content; */
-  width: fit-content;
-  padding: 1.5em
+  height: fit-content;
+  padding: 1.5em;
 }
 
 .about-container {

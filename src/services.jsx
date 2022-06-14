@@ -10,18 +10,18 @@ export default function services () {
         Our purpose is to share yours. What can we help you achieve?
       </div>
       <div className='pod-mgmt'>
-        <img className='service-image' src="https://i.imgur.com/h3kpNCx.jpg" alt="Podcasts" />
-        <div className='service-type'>Podcast Mgmt</div>
+        {/* <img className='service-image' src="https://i.imgur.com/h3kpNCx.jpg" alt="Podcasts" /> */}
+        <div className='service-type'>The Basics</div>
         <div className='service-blurb'>Do you have a podcast?<br/> We can manage it.</div>
       </div>
       <div className='videos'>
-      <img className='service-image' src="https://i.imgur.com/pm4JpKz.jpg" alt="Videos" />
-        <div className='service-type'>Video Mgmt</div>
+      {/* <img className='service-image' src="https://i.imgur.com/pm4JpKz.jpg" alt="Videos" /> */}
+        <div className='service-type'>The Preferred</div>
         <div className='service-blurb'>Do you have videos?<br/> We can manage them.</div>
       </div>
       <div className='custom'>
-      <img className='service-image' src="https://i.imgur.com/J2vo5JF.jpg" alt="Custom" />
-        <div className='service-type'>Custom Projects</div>
+      {/* <img className='service-image' src="https://i.imgur.com/J2vo5JF.jpg" alt="Custom" /> */}
+        <div className='service-type'>The Advanced</div>
         <div className='service-blurb'>Do you have socials?<br/> We can manage them.</div>
       </div>
     </div>
